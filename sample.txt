@@ -1,0 +1,8 @@
+@implementation XYZPerson
+- (void)sayHello {
+    [self saySomething:@"Hello, world!"];
+}
+- (void)saySomething:(NSString *)greeting {
+    NSLog(@"%@", greeting);
+}
+@end
